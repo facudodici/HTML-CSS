@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <title>Contact</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Inicio</a></li>
+                <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/accommodation.html">Accommodation</a></li>
+                <li><a href="http://127.0.0.1:5500/visits_activities.html">Visits and Activities</a></li>
+                <li><a href="http://127.0.0.1:5500/entertainment.html">Entertainment</a></li>
+                <li><a href="http://127.0.0.1:5500/form.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+        <div>
+        <form method="post" action="mailto:facundomartino96@outlook.com">
+            <label for="Usuario">Nombre de Usuario:</label>
+            <input type="text" name="Usuario" id="Usuario" required><br>
+
+            <label for="Email">Email del Usuario:</label>
+            <input type="email" name="Email" id="Email" required><br>
+            
+            <label for="Mensaje">Mensaje del Usuario:</label>
+            <textarea name="Mensaje" id="Mensaje" cols="20" rows="10" required></textarea><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </body>
+</html>
